@@ -1,0 +1,49 @@
+GTAGS
+GRTAGS
+GPATH
+prop
+out
+
+# OS X
+.DS_Store
+
+# intellij
+.idea
+*.iml
+
+# eclipse
+.project
+.classpath
+.settings
+.metadata
+.recommenders
+
+# editors
+*.sublime-project
+*.sublime-workspace
+*~
+
+# the build
+target
+build
+prepare-build
+/bin/
+CMakeFiles
+builddir
+
+# Benchmark timings
+timings.log
+
+# JVM crash reports
+hs_err_pid*
+
+diff.txt
+.reviewboardrc
+
+# Python
+*.pyc
+
+# Testing 
+workspace
+dependency-reduced-pom.xml
+mobile-cross-app/data/*

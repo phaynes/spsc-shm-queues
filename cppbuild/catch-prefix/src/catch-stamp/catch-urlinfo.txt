@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/Cellar/cmake/3.24.3/bin/cmake;-P;/Users/philiphaynes/devel/spscmqueue/cppbuild/catch-prefix/src/catch-stamp/verify-catch.cmake;COMMAND;/usr/local/Cellar/cmake/3.24.3/bin/cmake;-P;/Users/philiphaynes/devel/spscmqueue/cppbuild/catch-prefix/src/catch-stamp/extract-catch.cmake
+source_dir=/Users/philiphaynes/devel/spscmqueue/cppbuild/catch-prefix/src/catch
+work_dir=/Users/philiphaynes/devel/spscmqueue/cppbuild/catch-prefix/src
+url(s)=/Users/philiphaynes/devel/spscmqueue/cppbuild/Catch-1.2.1.tar.gz
+hash=MD5=70ee4cc959f8ff74ae43259de31d6eea
+no_extract=
+

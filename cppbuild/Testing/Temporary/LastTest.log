@@ -1,0 +1,21 @@
+Start testing: Nov 13 13:00 AEDT
+----------------------------------------------------------
+1/1 Testing: testSPSC
+1/1 Test: testSPSC
+Command: "/Users/philiphaynes/devel/spscmqueue/cppbuild/binaries/spscMMQueueTests"
+Directory: /Users/philiphaynes/devel/spscmqueue/cppbuild/src/main/cpp
+"testSPSC" start time: Nov 13 13:00 AEDT
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (40959 assertions in 3 test cases)
+
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"testSPSC" end time: Nov 13 13:00 AEDT
+"testSPSC" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 13 13:00 AEDT
