@@ -1,25 +1,25 @@
 # Shared Memory: Single Producer Single Consumer Queues
-
+## Introduction
 In a concurrent system the passing of messages represents an effective way to coordinage different threads and processes.
-However, in Java, and other environments the queueing abstraction is not terribly fast. 
+However, in Java and other similar environments, the queueing abstraction is not terribly fast. 
 
 In a series of blog posts Nitsan Wakart introduces the concept of lock free queues to achieve
-message passing concurrency at a throughput significantly higher than the standard JDK.
+message passing concurrency at a throughput significantly higher than available with the standard JDK queues.
 
 http://psy-lob-saw.blogspot.com/2013/03/single-producerconsumer-lock-free-queue.html
 
-Then came two goals:
-1. The ability / need to share data betweeen C++ and Java processes; and 
+In project work came two goals:
+1. The need to share data betweeen C++ and Java processes; and 
 2. Separate different processing elements to specific CPU cores to avoid processing contention. 
 
 Through a shared memory buffer with a cache coherent queue size, it turned out possible to implement a very fast and high 
 thoughput cross language message queue for x86 processes informed by a Herb Sutter talk [1]
 
-The work was later adapted and incorporated into the Aeron messaging library and has evolved over time.
+The work was later adapted and incorporated into the Aeron messaging library and has evolved over time [2].
 
 The source currently reflects older work that achieves 200-300 million msgs / second on an x86 processor. 
 
-On an M1 mac the cross language capability is not currently working through the x86 translation area.
+On an M1 mac the cross language capability is not currently working through the Mac's Rosetta 2 x86 translation system. mmm.
 
 ```bash
 
@@ -50,6 +50,7 @@ Similarly for the Java version run:
  
  ```
 
+## Next 
 
 
 
